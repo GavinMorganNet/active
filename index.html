@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>网站信息公告</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
+        .announcement {
+            width: 50%;
+            margin: auto;
+            margin-top: 5%;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="announcement">
+        <div class="title">GavinMorganNet | 公告</div>
+        <div class="message">
+		尊敬的用户，<br>
+		在此我们向大家发布以下公告：<br>由于网站正在维护，所以该网站暂时无法使用<br>
+    
+		1.资料更新：为了提供更好的服务和产品体验，我们将于明天开始对我们的网站进行资料更新。这可能会导致网站在一段时间内无法访问或者某些功能受到限制。我们将尽快完成更新工作，如果有任何不便，敬请谅解。<br><br>
+
+		2.优惠活动：我们非常高兴地宣布，即日起我们将推出一系列优惠活动。无论是新用户还是老用户，都可以享受到额外的优惠和折扣。记得密切关注我们的网站和社交媒体平台，以获取更多详情和参与活动。<br><br>
+
+		3.客服支持：我们一直致力于为用户提供最佳的客户支持。为了更好地满足您的需求，我们决定扩大我们的客服团队。无论您遇到任何问题或疑问，都可以随时联系我们的客服团队，我们将尽力为您提供满意的解答和支持。<br><br>
+
+		感谢您一直以来对我们的支持和信任。我们将继续努力提供更好的产品和服务，给您带来更好的体验。如果您有任何建议或反馈，请随时提出，我们将非常乐意听取您的意见。谢谢！<br><br>
+
+		最诚挚的问候，<br>
+		您的网站团队
+
+          吴知烆|2024
+            <!-- 公告信息 -->
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="goBack()">不批，斩了</button>
+            <button class="btn" onclick="readLiJie()">朕已阅</button>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            //window.history.back(); // 返回上一个页面
+            // 或
+            window.close(); // 关闭当前标签页
+        }
+
+        function readLiJie() {
+            window.open("index.html"); // 打开新标签页
+            window.close(); // 关闭当前标签页
+        }
+    </script>
+</body>
+</html>
